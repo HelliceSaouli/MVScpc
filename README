@@ -1,0 +1,2 @@
+My implementation of Multi-View-Stereo for Community Photo Collections approach. the main contribution of this approach is to choose intelligently images to match at per-view and per-pixel level.
+
