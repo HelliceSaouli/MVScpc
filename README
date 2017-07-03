@@ -1,2 +1,6 @@
-My implementation of Multi-View-Stereo for Community Photo Collections approach. the main contribution of this approach is to choose intelligently images to match at per-view and per-pixel level.
+My implementation of Multi-View-Stereo for Community Photo Collections [1] approach. 
+the main contribution of this approach is to choose intelligently images to match 
+at per-view and per-pixel level.
 
+[1]Michael Goesele, Noah Snavely, Brian Curless, Hugues Hoppe, Steven M. Seitz 
+Proceedings of ICCV 2007, Rio de Janeiro, Brasil, October 14-20, 2007. 
