@@ -117,7 +117,7 @@ float GlobalViewsSelector::compute_score(int master, int view)
 			if( !neighbors[j]->isFeatureVisible(commun[i]) )
 				continue;
 
-			alpha = views[j]->parallex(featurePos,views[view]);
+			alpha = neighbors[j]->parallex(featurePos,views[view]);
 			Wn_f *= std::min(std::pow(alpha/settings.alphaMin,2.0),1.0);
 
 		}
